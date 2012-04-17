@@ -1,0 +1,11 @@
+2012-04-17 17:32:06 Error: [MissingActionException] Action AppController::index() could not be found.
+#0 /u/c/cc5401g2/public_anakena/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /u/c/cc5401g2/public_anakena/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /u/c/cc5401g2/public_anakena/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /u/c/cc5401g2/public_anakena/app/index.php(17): require('/u/c/cc5401g2/p...')
+#4 {main}
+2012-04-17 17:46:34 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /u/c/cc5401g2/public_anakena/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /u/c/cc5401g2/public_anakena/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /u/c/cc5401g2/public_anakena/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
